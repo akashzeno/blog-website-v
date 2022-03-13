@@ -1,0 +1,25 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "blog app made with javascript",
+  "main": "index.js",
+  "scripts": {
+    "postcss:watch": "postcss src/main.css -o ./style.css -w"
+  },
+  "keywords": [],
+  "author": "Akash Chowdhury",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^5.0.10",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.2",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6",
+    "postcss-preset-env": "^6.7.0",
+    "stylelint": "^14.0.1",
+    "stylelint-config-standard": "^23.0.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.0"
+  }
+}
